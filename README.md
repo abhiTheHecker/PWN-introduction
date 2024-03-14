@@ -12,15 +12,6 @@ Typically a Pwn challenge can be solved through the following steps:
 ## Enumeration
 This step is probably the most crucial step and will determine the difficulty of the rest of the challenge to come. It primarily involves scanning a given server or a machine for open ports and finding out information about thr services running on these ports.<br/>
 
-The tool **nmap** can be used for enumerating the services running on the machine.
-```bash
-sudo nmap -sT -sC 10.10.128.254
-```
-
-This could give a result resembling this: <br/>
-![image not loaded](https://www.hackingtutorials.org/wp-content/uploads/2016/04/Metasploitable-2-Enumeration-nmap-port-scan-1.jpg)
-<br/>
-
 Pwn challenges often involve connecting to the target machine, which can be achieved through netcat. <br/>
 ```bash
 nc 10.10.128.253 4444
