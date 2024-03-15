@@ -15,7 +15,7 @@ This step is probably the most crucial step and will determine the difficulty of
 This can be achieved through the use of various tools, the most popular one being **nmap**. <br/>
 A command in nmap would look something like this: <br/>
 ```bash
-nmap -sT -sC -oA 10.10.1.2
+nmap -v -sT 10.10.2.144
 ```
 <br/>
 
